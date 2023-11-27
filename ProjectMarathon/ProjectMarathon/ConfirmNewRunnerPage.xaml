@@ -8,7 +8,32 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ConfirmNewRunnerPage">
 
-    <Grid>
-        
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Спасибо за вашу регистрацию в качестве"
+                   Style="{StaticResource MainText}"/>
+        <TextBlock Text="бегуна!"
+                   Style="{StaticResource MainText}"
+                   Margin="0,20,0,0"/>
+        <TextBlock Text="Спасибо за вашу регистрацию в качестве бегуна в Marathon Skills 2016!"
+                   Style="{StaticResource MainText}"
+                   Margin="0,60"
+                   FontSize="14"/>
+        <TextBlock Text="С вами свяжутся по поводу оплаты."
+                   Margin="0,75"
+                   FontSize="14"
+                   Style="{StaticResource MainText}"/>
+        <Button Content="ОК"
+                 Style="{StaticResource MainButton}"
+                Width="40"
+                FontSize="12"
+                Height="20"
+                Margin="0,70,0,0"
+                Click="MenuRunnerButton"/>
+        <Frame Name="NavigationPage" 
+               Grid.RowSpan="2"/>
     </Grid>
 </Page>

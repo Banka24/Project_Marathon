@@ -38,3 +38,83 @@ D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MySp
 D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\RegNewRunnerPage.baml
 D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\RunnerPage.baml
 D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\SponsorRunnerPage.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.csproj.AssemblyReference.cache
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\AcceptSponsorPage.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\AuthorizationRunnerPage.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\BMIPage.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\BMRPage.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ConfirmNewRunnerPage.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\InfoPage.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\LoginFormPage.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MainWindow.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MenuRunnerPage.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MySponsorPage.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\RegNewRunnerPage.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\RunnerPage.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\SponsorRunnerPage.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\App.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon_MarkupCompile.cache
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon_MarkupCompile.lref
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.exe
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.pdb
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\bin\Debug\ProjectMarathon.exe.config
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\bin\Debug\ProjectMarathon.exe
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\bin\Debug\ProjectMarathon.pdb
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\App.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\AcceptSponsorPage.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\AuthorizationRunnerPage.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\BMIPage.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\BMRPage.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ConfirmNewRunnerPage.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\InfoPage.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\LoginFormPage.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MainWindow.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MenuRunnerPage.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MySponsorPage.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\RegNewRunnerPage.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\RunnerPage.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\SponsorRunnerPage.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.g.resources
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.Properties.Resources.resources
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.csproj.GenerateResource.cache
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.csproj.CoreCompileInputs.cache
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.csproj.AssemblyReference.cache
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\AcceptSponsorPage.g.cs
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\AuthorizationRunnerPage.g.cs
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\BMIPage.g.cs
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\BMRPage.g.cs
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ConfirmNewRunnerPage.g.cs
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\InfoPage.g.cs
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\LoginFormPage.g.cs
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MainWindow.g.cs
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MenuRunnerPage.g.cs
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MySponsorPage.g.cs
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\RegNewRunnerPage.g.cs
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\RunnerPage.g.cs
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\SponsorRunnerPage.g.cs
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\App.g.cs
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon_MarkupCompile.cache
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon_MarkupCompile.lref
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.exe
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.pdb
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\bin\Debug\ProjectMarathon.exe.config
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\bin\Debug\ProjectMarathon.exe
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\bin\Debug\ProjectMarathon.pdb
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\App.baml
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\AcceptSponsorPage.baml
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\AuthorizationRunnerPage.baml
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\BMIPage.baml
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\BMRPage.baml
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ConfirmNewRunnerPage.baml
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\InfoPage.baml
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\LoginFormPage.baml
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MainWindow.baml
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MenuRunnerPage.baml
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MySponsorPage.baml
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\RegNewRunnerPage.baml
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\RunnerPage.baml
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\SponsorRunnerPage.baml
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.g.resources
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.Properties.Resources.resources
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.csproj.GenerateResource.cache
+D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.csproj.CoreCompileInputs.cache

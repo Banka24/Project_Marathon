@@ -24,5 +24,15 @@ namespace ProjectMarathon
         {
             InitializeComponent();
         }
+
+        private void RegNewRunnerButton(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new RegNewRunnerPage());
+        }
+
+        private void AuthorizationRunnerPage(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new AuthorizationRunnerPage ());
+        }
     }
 }
