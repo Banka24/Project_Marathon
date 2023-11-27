@@ -24,5 +24,10 @@ namespace ProjectMarathon
         {
             InitializeComponent();
         }
+
+        private void MenuRunnerButton(object sender, RoutedEventArgs e)
+        {
+            NavigationPage.Navigate(new MenuRunnerPage());
+        }
     }
 }

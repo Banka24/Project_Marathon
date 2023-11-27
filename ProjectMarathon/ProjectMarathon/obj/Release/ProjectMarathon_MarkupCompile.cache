@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Release\
+C:\Users\brutforce\source\repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Release\
 ProjectMarathon
 none
 false
 TRACE
-C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\App.xaml
-11151548125
+C:\Users\brutforce\source\repos\Project_Marathon\ProjectMarathon\ProjectMarathon\App.xaml
+13-2117724189
 
-5-2017746502
+171866118161
 13-1505183044
-MainWindow.xaml;
+AcceptSponsorPage.xaml;AuthorizationRunnerPage.xaml;BMIPage.xaml;BMRPage.xaml;ConfirmNewRunnerPage.xaml;InfoPage.xaml;LoginFormPage.xaml;MainWindow.xaml;MenuRunnerPage.xaml;MySponsorPage.xaml;RegNewRunnerPage.xaml;RunnerPage.xaml;SponsorRunnerPage.xaml;
 
 True
 
