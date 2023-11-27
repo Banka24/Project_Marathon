@@ -1,0 +1,16 @@
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\bin\Debug\ProjectMarathon.exe.config
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\bin\Debug\ProjectMarathon.exe
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\bin\Debug\ProjectMarathon.pdb
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.csproj.AssemblyReference.cache
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MainWindow.g.cs
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\App.g.cs
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon_MarkupCompile.cache
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon_MarkupCompile.lref
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\App.baml
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\MainWindow.baml
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.g.resources
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.Properties.Resources.resources
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.csproj.GenerateResource.cache
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.csproj.CoreCompileInputs.cache
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.exe
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.pdb

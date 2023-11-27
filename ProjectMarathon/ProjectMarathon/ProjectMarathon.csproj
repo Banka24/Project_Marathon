@@ -55,6 +55,70 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AcceptSponsorPage.xaml.cs">
+      <DependentUpon>AcceptSponsorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AuthorizationRunnerPage.xaml.cs">
+      <DependentUpon>AuthorizationRunnerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BMIPage.xaml.cs">
+      <DependentUpon>BMIPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BMRPage.xaml.cs">
+      <DependentUpon>BMRPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmNewRunnerPage.xaml.cs">
+      <DependentUpon>ConfirmNewRunnerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPage.xaml.cs">
+      <DependentUpon>InfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginFormPage.xaml.cs">
+      <DependentUpon>LoginFormPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MenuRunnerPage.xaml.cs">
+      <DependentUpon>MenuRunnerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MySponsorPage.xaml.cs">
+      <DependentUpon>MySponsorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegNewRunnerPage.xaml.cs">
+      <DependentUpon>RegNewRunnerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunnerPage.xaml.cs">
+      <DependentUpon>RunnerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SponsorRunnerPage.xaml.cs">
+      <DependentUpon>SponsorRunnerPage.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AcceptSponsorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AuthorizationRunnerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BMIPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BMRPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ConfirmNewRunnerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InfoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoginFormPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +131,26 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MenuRunnerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MySponsorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegNewRunnerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RunnerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SponsorRunnerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
