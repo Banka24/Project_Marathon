@@ -54,9 +54,9 @@ namespace ProjectMarathon
             Navigation.Navigate(new InfoPage());
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void LoginPage_Click(object sender, RoutedEventArgs e)
         {
-
+            Navigation.Navigate(new AuthorizationRunnerPage());
         }
     }
 }
