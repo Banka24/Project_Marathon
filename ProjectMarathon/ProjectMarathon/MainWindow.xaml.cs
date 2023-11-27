@@ -46,10 +46,15 @@ namespace ProjectMarathon
 
         private void SponsorRunnerButton_Click(object sender, RoutedEventArgs e)
         {
-
+            Navigation.Navigate(new SponsorRunnerPage());
         }
 
-        private void InfoButtonButton_Click(object sender, RoutedEventArgs e)
+        private void InfoButton_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new InfoPage());
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
 
         }
