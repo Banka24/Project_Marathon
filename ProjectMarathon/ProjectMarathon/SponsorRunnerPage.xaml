@@ -6,9 +6,61 @@
       xmlns:local="clr-namespace:ProjectMarathon"
       mc:Ignorable="d" 
       d:DesignHeight="550" d:DesignWidth="800"
-      Title="SponsorRunnerPage">
+      Title="SponsorRunnerPage" Background="White">
 
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Frame Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Row="1" Grid.RowSpan="3"/>
+        <StackPanel Orientation="Horizontal" Background="#505050" Grid.ColumnSpan="2">
+            <Button Name="GoBackButton" Content="Назад" Margin="10, 0" Click="GoBackButton_Click" Style="{StaticResource SmallButton}"/>
+            <TextBlock Text="MARATHON SKILLS 2024" FontSize="24" Margin="150, 0" VerticalAlignment="Center" Style="{StaticResource TitleText}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2">
+            <TextBlock Text="Спонсор бегуна" Margin="0, 15" Style="{StaticResource DlcText}"/>
+            <TextBlock Style="{StaticResource MainText}" FontSize="22" TextAlignment="Center">                
+                Пожалуйста, выберите бегуна, которого хотели бы спонсировать и сумму,<LineBreak/> которую вы хотели бы спонсировать. Cпасибо за вашу поддержку бегунов <LineBreak/> 
+                и их благотворительных учереждений.
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <StackPanel Width="240">
+                <TextBlock Text="Информация о спонсоре" Style="{StaticResource MainText}"/>
+                <TextBlock Text="Ваше имя:" FontSize="18" HorizontalAlignment="Right" Padding="0, 0, 10, 0"/>
+                <TextBlock Text="Бегун:" FontSize="18" HorizontalAlignment="Right" Padding="0, 0, 10, 0"/>
+                <TextBlock Text="Карта:" FontSize="18" HorizontalAlignment="Right" Padding="0, 0, 10, 0"/>
+                <TextBlock Text="Номер карты#:" FontSize="18" HorizontalAlignment="Right" Padding="0, 0, 10, 0"/>
+                <TextBlock Text="Срок действия:" FontSize="18" HorizontalAlignment="Right" Padding="0, 0, 10, 0"/>
+                <TextBlock Text="CVC:" FontSize="18" HorizontalAlignment="Right" Padding="0, 0, 10, 0"/>                
+            </StackPanel>
+            <StackPanel>
+                <TextBox Name="NameSponsor" Width="170" Margin="0, 30, 0, 0" Text = "Ваше имя"/>
+                <ComboBox Name="Runnerponsor" Width="170" Margin="0, 2, 0, 0"/>
+                <TextBox Name="Card" Width="170" Margin="0, 7, 0, 0" Text = "Владелец карты"/>
+                <TextBox Name="NumberCard" Width="170" Margin="0, 5, 0, 0" Text = "1234 1234 1234 1234" MaxLength="19"/>
+                <StackPanel Orientation="Horizontal">
+                    <TextBox Name="MonthCard" Width="30" Margin="0, 7, 0, 0" Text = "01" TextAlignment="Center" MaxLength="2"/>
+                    <TextBox Name="YearCard" Width="60" Margin="8, 7, 0, 0" Text = "2030" TextAlignment="Center" MaxLength="4"/>
+                </StackPanel>
+                <PasswordBox Name="NumberPasswordCard" Width="30" Margin="0, 4, 0, 0" HorizontalAlignment="Left" MaxLength="3"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            <StackPanel>
+                <TextBlock Text="Благотворительность" Style="{StaticResource MainText}"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <TextBlock Text="Фонд Кошек" FontSize="16" Style="{StaticResource DlcText}"/>
+                    <CheckBox Margin="20, 2, 0, 2" BorderBrush="Orange"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Page>

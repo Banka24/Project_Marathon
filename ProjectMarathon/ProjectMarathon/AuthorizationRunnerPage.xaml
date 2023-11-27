@@ -9,6 +9,40 @@
       Title="AuthorizationRunnerPage">
 
     <Grid>
-        
+        <Grid Background="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60*"/>
+                <RowDefinition Height="167*"/>
+                <RowDefinition Height="225*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Форма авторизации"
+            Style="{StaticResource MainText}" Margin="307,10,306,0" Grid.RowSpan="2"/>
+            <TextBlock Text="Пожалуйста, авторизуйтесь в системе, используя ваш адрес электронной почты"
+                   Style="{StaticResource MainText}"
+                   Margin="142,2.300,142,60"
+                   FontSize="14" Grid.Row="1"/>
+            <TextBlock Text="и пароль."
+                   Margin="369,17.308,369,75"
+                   FontSize="14"
+                   Style="{StaticResource MainText}" Grid.Row="1"/>
+            <TextBlock FontSize="12" Grid.Row="1" Text="Email:" Margin="202,50,567,0" Style="{StaticResource MainText}"/>
+            <TextBlock FontSize="12" Grid.Row="1" Text="Password:" Margin="181,70,566,0" Style="{StaticResource MainText}"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="330,0" Grid.RowSpan="2">
+                <Button Content="Login"
+                 Style="{StaticResource SmallButton}"
+                Width="60"
+                FontSize="12"
+                Height="20"
+                Margin="0,100,20,0"/>
+                <Button Content="Cansel"
+                 Style="{StaticResource SmallButton}"
+                Width="60"
+                FontSize="12"
+                Height="20"
+                Margin="0,100,0,0"/>
+            </StackPanel>
+            <Frame Name="NavigationPage" 
+               Grid.RowSpan="3"/>
+        </Grid>
     </Grid>
 </Page>
