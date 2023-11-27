@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Win32;
 
 namespace ProjectMarathon
 {
@@ -23,6 +24,24 @@ namespace ProjectMarathon
         public RegNewRunnerPage()
         {
             InitializeComponent();
+        }
+
+        private void ConfirmNewRunnerButton(object sender, RoutedEventArgs e)
+        {
+            NavigationPage.Navigate(new ConfirmNewRunnerPage());
+        }
+
+        private void SelectImage_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Image Files (*.jpg, *.png, *.gif)|*.jpg;*.png;*.gif|All files (*.*)|*.*";
+
+            if (openFileDialog.ShowDialog() == true)
+            {
+                string selectedFileName = openFileDialog.FileName;
+                imgPreview.Source = new BitmapImage(new Uri(selectedFileName));
+                TextBoxFile.Text = System.IO.Path.GetFileName(selectedFileName);
+            }
         }
     }
 }
