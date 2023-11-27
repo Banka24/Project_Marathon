@@ -7,6 +7,65 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <TextBlock
+            Background="#505050"/>
+            <TextBlock Text="MARATHON SKILLS 2024"
+                   Foreground="#ffffff"
+                   FontSize="30"
+                   HorizontalAlignment="Center"/>
+            <TextBlock Text="Москва, Россия"
+                   FontSize="20"
+                   Foreground="#808080"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"/>
+            <TextBlock Text="Четверг 29 ноября 2023 года"
+                   FontSize="20"
+                   Foreground="#808080"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Margin="0,50,0,0"/>
+            <Button Content="Я хочу стать бегуном"
+                Grid.Row="1"
+                Height="90"
+                Width="250"
+                Click="Begun_Form"
+                Margin="5"/>
+            <Button Content="Я хочу стать спонсором бегуна"
+                Grid.Row="2"
+                Height="90"
+                Width="250"
+                Margin="5"
+                Click="SponsorsBegunForm"/>
+            <Button Content="Я хочу знать больше о событии" 
+                Grid.Row="3"
+                Height="90"
+                Width="250"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Margin="0,-35,0,0"/>
+            <Button Content="Login"
+                Grid.Row="3"
+                Grid.RowSpan="4"
+                Width="80" 
+                Height="25"
+                HorizontalAlignment="Right"
+                Margin="0, 60, 10, 0"/>
+            <TextBlock Grid.Row="5"
+                   Background="#505050"/>
+            <TextBlock Grid.Row="5"
+                   Foreground="White" 
+                   />
+            <Frame Name="Navigation"
+               NavigationUIVisibility="Hidden"
+               Grid.RowSpan="4"/>
+        </Grid>
     </Grid>
 </Window>
