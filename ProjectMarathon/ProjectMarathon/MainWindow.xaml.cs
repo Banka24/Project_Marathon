@@ -39,9 +39,9 @@ namespace ProjectMarathon
             lblTimeUntilEvent.Text = $"{timeUntilEvent.Days} дней {timeUntilEvent.Hours} часов и {timeUntilEvent.Minutes} минут до старта марафона!";
         }
 
-        private void RegRunnerButton_Click(object sender, RoutedEventArgs e)
+        private void RunnerButton_Click(object sender, RoutedEventArgs e)
         {
-            Navigation.Navigate(n)
+            Navigation.Navigate(new RunnerPage());
         }
 
         private void SponsorRunnerButton_Click(object sender, RoutedEventArgs e)
