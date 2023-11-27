@@ -24,5 +24,10 @@ namespace ProjectMarathon
         {
             InitializeComponent();
         }
+
+        private void GoBackButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
