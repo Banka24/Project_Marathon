@@ -27,7 +27,10 @@ namespace ProjectMarathon
 
         private void GoBackButton_Click(object sender, RoutedEventArgs e)
         {
-
+            if (MainFrame.CanGoBack)
+            {
+                MainFrame.GoBack();
+            }
         }
     }
 }
