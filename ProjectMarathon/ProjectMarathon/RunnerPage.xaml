@@ -31,6 +31,7 @@
                 Width="250"
                 Height="100"
                 Content="Я участвовал ранее"
+                Click="AuthorizationRunnerPage"
                 Style="{StaticResource MainButton}"
                 />
         <Button Grid.Row="2"
@@ -49,7 +50,6 @@
                 Style="{StaticResource MainButton}"
                 Margin="0, 120, 10, 0"/>
         <Frame Name="Navigation"
-               Grid.Row="1"
-               Grid.RowSpan="2"/>
+               Grid.RowSpan="3" Margin="0,38,0,12"/>
     </Grid>
 </Page>
