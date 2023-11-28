@@ -24,7 +24,7 @@
                 <Button Name="RunnerButton" Click="RunnerButton_Click" Content="Я хочу стать бегуном" Grid.Row="1" Style="{StaticResource MainButton}" />
                 <Button Name="SponsorRunnerButton" Click="SponsorRunnerButton_Click" Content="Я хочу стать спонсором бегуна" Grid.Row="2" Style="{StaticResource MainButton}"/>
                 <Button Name="InfoButton" Click="InfoButton_Click" Content="Я хочу знать больше о событии" Grid.Row="3" Margin="0,-60,0,0" Style="{StaticResource MainButton}"/>
-                <Button Name="LoginPage" Content="Login" Grid.Row="3" Grid.RowSpan="4" Click="LoginPage_Click" HorizontalAlignment="Right" Margin="0, 0, 10, 0" Style="{StaticResource SmallButton}"/>
+                <Button Name="LoginPage" Content="Login" Grid.Row="3" Grid.RowSpan="4" Click="LoginPage_Click" HorizontalAlignment="Right" Margin="0, -25, 10, 0" Style="{StaticResource SmallButton}"/>
                 <Label Grid.Row="4" Background="#505050"/>
                 <TextBlock x:Name="lblTimeUntilEvent" Grid.Row="4" Style="{StaticResource TitleText}" FontSize="18" VerticalAlignment="Center"/>
             <Frame Name="Navigation" NavigationUIVisibility="Hidden" Grid.RowSpan="4"/>

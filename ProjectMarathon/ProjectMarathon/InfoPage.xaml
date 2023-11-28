@@ -36,6 +36,6 @@
                         Width="300" x:Name="BMR"/>
             </StackPanel>
         </StackPanel>
-        <Frame x:Name="Navigation" Grid.RowSpan="5" Grid.Row="1"/>
+        <Frame x:Name="Navigation" Grid.RowSpan="5"/>
     </Grid>
 </Page>

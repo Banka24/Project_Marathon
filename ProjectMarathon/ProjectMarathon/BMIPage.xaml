@@ -10,31 +10,39 @@
 
     <Grid Background="White">
         <Grid.RowDefinitions>
-            <RowDefinition Height="100"/>
+            <RowDefinition Height="40"/>
             <RowDefinition Height="60"/>
             <RowDefinition Height="60"/>
             <RowDefinition Height="60"/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="BMI калькулятор" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20"/>
-        <TextBlock Text="Информация о том что такое BMI и &#x0a;как калькулятор работает" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30,5" FontSize="14"/>
-        <GroupBox Header="Выберите ваш пол:" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,5" FontSize="15">
+        <TextBlock
+            Foreground="#ffffff"
+            Background="#505050"/>
+        <TextBlock Text="MARATHON SKILLS 2024"
+                   Style="{StaticResource TitleText}"
+                   FontSize="24"
+                   Margin="-200, 10, 0, 0"/>
+        <TextBlock Grid.Row="1" Text="BMI калькулятор" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock Grid.Row="1" Text="Информация о том что такое BMI и &#x0a;как калькулятор работает" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30,5" FontSize="14"/>
+        <GroupBox Header="Выберите ваш пол:" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,5" FontSize="15">
             <StackPanel Orientation="Horizontal">
                 <RadioButton x:Name="Male" Content="Мужской" Margin="0,0,10,0"/>
                 <RadioButton x:Name="Female" Content="Женский"/>
             </StackPanel>
         </GroupBox>
-        <TextBlock Text="Рост:" Grid.Row="2" FontSize="18" Margin="50,10"/>
-        <TextBlock Text="см" Grid.Row="2" FontSize="18" Margin="195,10,-95,10"/>
-        <TextBox x:Name="Rost" Grid.Row="2" VerticalAlignment="Top" Margin="98,15,510,0"/>
-        <TextBlock Text="Вес:" Grid.Row="3" FontSize="18" Margin="50,10"/>
-        <TextBlock Text="кг" Grid.Row="3" FontSize="18" Margin="195,10,-95,10"/>
-        <TextBox x:Name="Ves" Grid.Row="3" VerticalAlignment="Top" Margin="98,15,510,0"/>
-        <Button Grid.Row="4" Content="Рассчитать" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Margin="40,0" Click="ResultBMI"/>
-        <Button Grid.Row="4" Content="Отмена" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Click="Cancel" Margin="150,0"/>
-        <TextBox x:Name="Result" Grid.Row="5" Margin="20,5" IsReadOnly="True"/>
-        <ProgressBar x:Name="bmiProgressBar" Height="20" Value="0" Minimum="0" Maximum="40" Grid.Row="4" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="200" Margin="0,0,120,0"/>
-        <Frame x:Name="MyFrame" NavigationUIVisibility="Hidden" Grid.RowSpan="6"/>
+        <TextBlock Text="Рост:" Grid.Row="3" FontSize="18" Margin="50,10"/>
+        <TextBlock Text="см" Grid.Row="3" FontSize="18" Margin="195,10,-95,10"/>
+        <TextBox x:Name="Rost" Grid.Row="3" VerticalAlignment="Top" Margin="98,15,510,0"/>
+        <TextBlock Text="Вес:" Grid.Row="4" FontSize="18" Margin="50,10"/>
+        <TextBlock Text="кг" Grid.Row="4" FontSize="18" Margin="195,10,-95,10"/>
+        <TextBox x:Name="Ves" Grid.Row="4" VerticalAlignment="Top" Margin="98,15,510,0"/>
+        <Button Grid.Row="5" Content="Рассчитать" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Margin="40,0" Click="ResultBMI"/>
+        <Button Grid.Row="5" Content="Отмена" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Click="Cancel" Margin="150,0"/>
+        <TextBox x:Name="Result" Grid.Row="6" Margin="20,5" Height="70" IsReadOnly="True"/>
+        <ProgressBar x:Name="bmiProgressBar" Height="20" Value="0" Minimum="0" Maximum="40" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Right" Width="200" Margin="0,0,120,0"/>
+        <Frame x:Name="MyFrame" NavigationUIVisibility="Hidden" Grid.RowSpan="8"/>
     </Grid>
 </Page>
