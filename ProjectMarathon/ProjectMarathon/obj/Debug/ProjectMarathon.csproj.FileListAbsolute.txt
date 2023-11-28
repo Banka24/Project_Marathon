@@ -120,3 +120,5 @@ D:\Lashmanov5\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.exe
 D:\Lashmanov5\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.pdb
 D:\Lashmanov5\ProjectMarathon\ProjectMarathon\obj\Debug\Contactinfo.g.cs
 D:\Lashmanov5\ProjectMarathon\ProjectMarathon\obj\Debug\Contactinfo.baml
+D:\Lashmanov5\ProjectMarathon\ProjectMarathon\obj\Debug\NewMainWindow.g.cs
+D:\Lashmanov5\ProjectMarathon\ProjectMarathon\obj\Debug\NewMainWindow.baml

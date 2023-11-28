@@ -33,7 +33,7 @@ namespace ProjectMarathon
 
         private void Confirm(object sender, RoutedEventArgs e)
         {
-            Navigation.Navigate(new InfoPage());
+            Navigation.Navigate(new MenuRunnerPage());
         }
 
         private void GoBackButton_Click(object sender, RoutedEventArgs e)

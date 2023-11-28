@@ -25,9 +25,9 @@ namespace ProjectMarathon
             InitializeComponent();
         }
 
-        private void close_Click(object sender, RoutedEventArgs e)
+        private void rb_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
     }
 }

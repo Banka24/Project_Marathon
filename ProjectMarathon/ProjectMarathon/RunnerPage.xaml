@@ -51,7 +51,6 @@
                 Style="{StaticResource MainButton}"
                 Margin="0, 120, 10, 0"/>
         <Frame Name="Navigation"
-               Grid.Row="1"
-               Grid.RowSpan="3"/>
+               Grid.RowSpan="4"/>
     </Grid>
 </Page>
