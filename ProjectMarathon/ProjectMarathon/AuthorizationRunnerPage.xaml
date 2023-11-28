@@ -10,9 +10,9 @@
 
     <Grid Background="White">
         <Grid.RowDefinitions>
-            <RowDefinition Height="60*"/>
-            <RowDefinition Height="167*"/>
-            <RowDefinition Height="225*"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="167"/>
+            <RowDefinition Height="225"/>
         </Grid.RowDefinitions>
         <TextBox Grid.RowSpan="3" 
              Width="110" 
