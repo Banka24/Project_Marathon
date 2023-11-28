@@ -19,7 +19,6 @@
             <RowDefinition/>
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
-        <Frame Name="Navigation" Grid.RowSpan="5"/>
         <StackPanel Orientation="Horizontal" Background="#505050" Grid.ColumnSpan="2">
             <Button Name="GoBackButton" Content="Logout" Margin="10, 0" Click="GoBackButton_Click" Style="{StaticResource SmallButton}"/>
             <TextBlock Text="MARATHON SKILLS 2024" FontSize="24" Margin="150, 0" VerticalAlignment="Center" Style="{StaticResource TitleText}"/>
@@ -43,7 +42,7 @@
             </StackPanel>
             <StackPanel>
                 <TextBox Name="NameSponsor" Width="170" Margin="0, 30, 0, 0" Text = "Ваше имя"/>
-                <ComboBox Name="NameRunner" Width="170" Margin="0, 2, 0, 0"/>
+                <ComboBox Name="Runnerponsor" Width="170" Margin="0, 2, 0, 0"/>
                 <TextBox Name="Card" Width="170" Margin="0, 7, 0, 0" Text = "Владелец карты"/>
                 <TextBox Name="NumberCard" Width="170" Margin="0, 5, 0, 0" Text = "1234 1234 1234 1234" MaxLength="19"/>
                 <StackPanel Orientation="Horizontal">
@@ -73,5 +72,6 @@
                 </StackPanel>
             </StackPanel>
         </StackPanel>
+        <Frame Name="Navigation" Grid.RowSpan="4" Grid.ColumnSpan="3"/>
     </Grid>
 </Page>
