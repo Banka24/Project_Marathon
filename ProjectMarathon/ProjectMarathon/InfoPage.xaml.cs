@@ -25,41 +25,34 @@ namespace ProjectMarathon
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Marathon_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Result_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void BMI_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new BMIPage());
+        }
+
+        private void time_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e)
+        private void Organizac_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void Button_Click_4(object sender, RoutedEventArgs e)
+        private void BMR_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void Button_Click_5(object sender, RoutedEventArgs e)
-        {
-            if (this.NavigationService.CanGoBack)
-            {
-                this.NavigationService.GoBack();
-            }
-            else
-            {
-                MessageBox.Show("No entries in back navigation history.");
-            }
+            Navigation.Navigate(new BMRPage());
         }
     }
 }

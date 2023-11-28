@@ -70,6 +70,9 @@
     <Compile Include="ConfirmNewRunnerPage.xaml.cs">
       <DependentUpon>ConfirmNewRunnerPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Contactinfo.xaml.cs">
+      <DependentUpon>Contactinfo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="InfoPage.xaml.cs">
       <DependentUpon>InfoPage.xaml</DependentUpon>
     </Compile>
@@ -108,6 +111,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ConfirmNewRunnerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Contactinfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

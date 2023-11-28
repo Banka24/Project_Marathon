@@ -6,18 +6,31 @@
       xmlns:local="clr-namespace:ProjectMarathon"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="MenuRunnerPage">
+      Title="MenuRunnerPage" Background="White">
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="100"/>
-            <RowDefinition Height="120"/>
-            <RowDefinition Height="120"/>
-            <RowDefinition Height="145"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="285"/>
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
         <Label Background="#505050"/>
-        <TextBlock Text="MARATHON SKILLS 2024" Style="{StaticResource TitleText}"/>
-        <TextBlock Text="Четверг 31 декабря 2023 года" Style="{StaticResource MainText}" Margin="0, 70, 0, 0"/>
+        <TextBlock Text="MARATHON SKILLS 2024" Style="{StaticResource TitleText}" VerticalAlignment="Center"/>
+        <TextBlock Style="{StaticResource MainText}" Text="Меню бегуна" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <StackPanel Grid.Row="2">
+                <Button Click="Button_Click" Content="Кнопка2" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" HorizontalAlignment="Left" Width="300"/>
+                <Button Click="Button_Click_1" Content="Кнопка1" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" HorizontalAlignment="Left" Width="300"/>
+                <Button Click="Contact_Click" Content="Контактная информация" Grid.Row="2" Style="{StaticResource MainButton}"
+                        x:Name="Contact" Margin="50, 5" HorizontalAlignment="Left" Width="300"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Right">
+                <Button Click="Button_Click_3" Content="Кнопка3" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" HorizontalAlignment="Right" Width="300"/>
+                <Button Click="Button_Click_4" Content="Кнопка4" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" Width="300"/>
+            </StackPanel>
+        </StackPanel>
+        <Frame Name="Navigation" NavigationUIVisibility="Hidden" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center"
+               Height="250" Width="300"/>
     </Grid>
 </Page>
