@@ -51,5 +51,10 @@ namespace ProjectMarathon
         {
 
         }
+
+        private void Logout(object sender, RoutedEventArgs e)
+        {
+            Navigation1.Navigate(new NewMainWindow());
+        }
     }
 }
