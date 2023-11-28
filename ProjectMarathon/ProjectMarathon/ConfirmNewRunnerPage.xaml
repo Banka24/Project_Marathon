@@ -57,6 +57,6 @@
                 Content="Logout"
                 Click="Logout"/>
         <Frame Name="NavigationPage" 
-               Grid.RowSpan="2"/>
+               Grid.RowSpan="3"/>
     </Grid>
 </Page>
