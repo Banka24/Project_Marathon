@@ -20,9 +20,25 @@ namespace ProjectMarathon
     /// </summary>
     public partial class AuthorizationRunnerPage : Page
     {
+        
         public AuthorizationRunnerPage()
         {
             InitializeComponent();
+        }
+
+        private void Cancel(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new NewMainWindow());
+        }
+
+        private void Confirm(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new MenuRunnerPage());
+        }
+
+        private void GoBackButton_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new NewMainWindow());
         }
     }
 }

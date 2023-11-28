@@ -33,16 +33,14 @@ namespace ProjectMarathon
         private void AuthBtn(object sender, RoutedEventArgs e)
         {
             Navigation.Navigate(new AuthorizationRunnerPage());
-        }  
-        private void GoBackButton_Click(object sender, RoutedEventArgs e)
-        {
-            if (Navigation.CanGoBack)
-            {
-                Navigation.GoBack();
-            }           
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Back(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new NewMainWindow());
+        }
+
+        private void AuthFormBtn(object sender, RoutedEventArgs e)
         {
             Navigation.Navigate(new AuthorizationRunnerPage());
         }

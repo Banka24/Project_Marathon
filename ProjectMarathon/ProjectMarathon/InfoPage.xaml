@@ -6,9 +6,36 @@
       xmlns:local="clr-namespace:ProjectMarathon"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="InfoPage">
+      Title="InfoPage" Background="White">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="285"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Label Background="#505050"/>
+        <TextBlock Text="MARATHON SKILLS 2024" Style="{StaticResource TitleText}" VerticalAlignment="Center"/>
+        <TextBlock Style="{StaticResource MainText}" Text="Подррбная информация" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <StackPanel Grid.Row="2">
+                <Button Click="Marathon_Click" Content="Marathon Skills 2024" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" 
+                        HorizontalAlignment="Left" Width="300" x:Name="Marathon"/>
+                <Button Click="Result_Click" Content="Предыдущие результаты" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" 
+                        HorizontalAlignment="Left" Width="300" x:Name="Result"/>
+                <Button Click="BMI_Click" Content="BMI калькулятор" Grid.Row="2" Style="{StaticResource MainButton}"
+                        x:Name="BMI" Margin="50, 5" HorizontalAlignment="Left" Width="300"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Right">
+                <Button Click="time_Click" Content="Насколько долгий марафон" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" 
+                        HorizontalAlignment="Right" Width="300" x:Name="time"/>
+                <Button Click="Organizac_Click" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" Width="300" 
+                        Content="Список благотворительных организаций"  x:Name="Organizac" FontSize="15"/>
+                <Button Click="BMR_Click" Content="BMR калькулятор" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" 
+                        Width="300" x:Name="BMR"/>
+            </StackPanel>
+        </StackPanel>
+        <Frame x:Name="Navigation" Grid.RowSpan="5"/>
     </Grid>
 </Page>

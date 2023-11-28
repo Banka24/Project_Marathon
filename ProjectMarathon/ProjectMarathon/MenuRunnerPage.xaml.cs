@@ -24,5 +24,32 @@ namespace ProjectMarathon
         {
             InitializeComponent();
         }
+
+
+
+        private void Contact_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new Contactinfo());
+        }
+
+        private void Registr_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation1.Navigate(new LoginFormPage());
+        }
+
+        private void sponsor_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation1.Navigate(new MySponsorPage());
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

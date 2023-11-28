@@ -24,5 +24,35 @@ namespace ProjectMarathon
         {
             InitializeComponent();
         }
+
+        private void Marathon_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Result_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BMI_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new BMIPage());
+        }
+
+        private void time_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Organizac_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BMR_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new BMRPage());
+        }
     }
 }
