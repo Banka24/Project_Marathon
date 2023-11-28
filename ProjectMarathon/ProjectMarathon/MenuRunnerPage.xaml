@@ -9,6 +9,15 @@
       Title="MenuRunnerPage">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="145"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Label Background="#505050"/>
+        <TextBlock Text="MARATHON SKILLS 2024" Style="{StaticResource TitleText}"/>
+        <TextBlock Text="Четверг 31 декабря 2023 года" Style="{StaticResource MainText}" Margin="0, 70, 0, 0"/>
     </Grid>
 </Page>
