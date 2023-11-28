@@ -29,5 +29,10 @@ namespace ProjectMarathon
         {
             NavigationPage.Navigate(new MenuRunnerPage());
         }
+
+        private void Logout(object sender, RoutedEventArgs e)
+        {
+            NavigationPage.Navigate(new NewMainWindow());
+        }
     }
 }

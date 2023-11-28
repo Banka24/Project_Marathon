@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ProjectMarathon"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="500" d:DesignWidth="800"
       Title="MenuRunnerPage" Background="White">
 
     <Grid>
@@ -13,10 +13,14 @@
             <RowDefinition Height="55"/>
             <RowDefinition Height="55"/>
             <RowDefinition Height="285"/>
-            <RowDefinition Height="30"/>
+            <RowDefinition Height="70"/>
         </Grid.RowDefinitions>
         <Label Background="#505050"/>
         <TextBlock Text="MARATHON SKILLS 2024" Style="{StaticResource TitleText}" VerticalAlignment="Center"/>
+        <Button Style="{StaticResource SmallButton}"
+                Margin="650,0,0,0"
+                Content="Logout"
+                Click="Logout"/>
         <TextBlock Style="{StaticResource MainText}" Text="Меню бегуна" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <StackPanel Grid.Row="2" Orientation="Horizontal">
             <StackPanel Grid.Row="2">

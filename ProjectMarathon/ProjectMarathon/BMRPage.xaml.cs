@@ -24,5 +24,38 @@ namespace ProjectMarathon
         {
             InitializeComponent();
         }
+
+        private void Result_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(Rost.Text) || string.IsNullOrWhiteSpace(Ves.Text) || string.IsNullOrWhiteSpace(Age.Text))
+            {
+                MessageBox.Show("Пожалуйста, заполните все поля.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            double a = Convert.ToDouble(Rost.Text);
+            double b = Convert.ToDouble(Ves.Text);
+            int age = Convert.ToInt32(Age.Text);
+
+            double bmr = 0;
+            if (Male.IsChecked.Value)
+            {
+                // Формула для мужчин
+                bmr = 88.362 + (13.397 * b) + (4.799 * a) - (5.677 * age);
+            }
+            else if (Female.IsChecked.Value)
+            {
+                // Формула для женщин
+                bmr = 447.593 + (9.247 * b) + (3.098 * a) - (4.330 * age);
+            }
+
+            // Вывод результата
+            Result.Text = $"{bmr:F2} ккал/сутки (ежедневно тратится колорий)";
+        }
+
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(new NewMainWindow());
+        }
     }
 }

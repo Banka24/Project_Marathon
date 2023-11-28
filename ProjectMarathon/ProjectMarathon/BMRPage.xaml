@@ -5,10 +5,45 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ProjectMarathon"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="500" d:DesignWidth="800"
       Title="BMRPage" Background="White">
 
-    <Grid>
-        
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="115"/>
+            <RowDefinition Height="115"/>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Foreground="#ffffff"
+            Background="#505050"/>
+        <TextBlock Text="MARATHON SKILLS 2024"
+                   Style="{StaticResource TitleText}"
+                   FontSize="24"
+                   Margin="-200, 10, 0, 0"/>
+        <TextBlock Grid.Row="1" Text="BMR калькулятор" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock Grid.Row="1" Text="Информация о том что такое BMR и &#x0a;как рассчитываются результаты" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30,5" FontSize="12"/>
+        <TextBlock  Text="Ваш BMR" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="20" Grid.Row="2" Margin="160,5"/>
+        <TextBlock Grid.Row="1" Text="Информация о показателях калорий показыается здесь" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="30,5" FontSize="14"/>
+        <GroupBox Name="Gender" Header="Выберите ваш пол:" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,5" FontSize="15">
+            <StackPanel Orientation="Horizontal">
+                <RadioButton x:Name="Male" Content="Мужской" Margin="0,0,10,0"/>
+                <RadioButton x:Name="Female" Content="Женский"/>
+            </StackPanel>
+        </GroupBox>
+        <TextBlock Text="Рост:" Grid.Row="3" FontSize="18" Margin="42,10"/>
+        <TextBox x:Name="Rost" Grid.Row="3" VerticalAlignment="Top" Margin="0,15,510,0" Width="100"/>
+        <TextBlock Text="Вес:" Grid.Row="4" FontSize="18" Margin="50,10"/>
+        <TextBox x:Name="Ves" Grid.Row="4" VerticalAlignment="Top" Margin="0,15,510,0" Width="100"/>
+        <TextBlock Text="Возраст:" Grid.Row="5" FontSize="18" Margin="15,10,0,0"/>
+        <TextBox x:Name="Age" Grid.Row="5" VerticalAlignment="Top" Margin="-20,15,484,0" Width="100"/>
+        <Button Grid.Row="6" Content="Рассчитать" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Margin="40,0" Click="Result_Click"/>
+        <Button Grid.Row="6" Content="Отмена" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Margin="150,0" Click="Cancel_Click"/>
+        <TextBox x:Name="Result" Grid.Row="3" Margin="400,0,0,0" Height="50" Width="350" IsReadOnly="True"/>
+        <Frame x:Name="MyFrame" NavigationUIVisibility="Hidden" Grid.Row="0" Grid.RowSpan="8"/>
     </Grid>
 </Page>
