@@ -51,6 +51,6 @@
                 Margin="150,80,0,0"
                 Click="Cancel"/>
         <Frame Name="Navigation"
-               Grid.RowSpan="3"/>
+               Grid.RowSpan="3" Navigated="Navigation_Navigated"/>
     </Grid>
 </Page>

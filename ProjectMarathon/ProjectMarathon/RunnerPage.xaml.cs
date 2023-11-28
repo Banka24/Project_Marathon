@@ -39,5 +39,18 @@ namespace ProjectMarathon
         {
 
         }
+
+        private void GoBackBtn(object sender, RoutedEventArgs e)
+        {
+            if (NavigationService.CanGoBack)
+            {
+                NavigationService.GoBack();
+            }
+        }
+
+        private void LogoutBtn(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new NewMainWindow());
+        }
     }
 }
