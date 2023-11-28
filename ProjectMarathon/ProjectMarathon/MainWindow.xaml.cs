@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.Timers;
 using System.Windows.Threading;
 
+
 namespace ProjectMarathon
 {
     /// <summary>
@@ -57,6 +58,16 @@ namespace ProjectMarathon
         private void LoginPage_Click(object sender, RoutedEventArgs e)
         {
             Navigation.Navigate(new AuthorizationRunnerPage());
+        }
+
+        private void GoBackBtn(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void LogoutBtn(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new MainWindow());
         }
     }
 }

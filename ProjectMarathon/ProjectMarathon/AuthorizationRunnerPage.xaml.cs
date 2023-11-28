@@ -24,5 +24,15 @@ namespace ProjectMarathon
         {
             InitializeComponent();
         }
+
+        private void Cancel(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new RunnerPage());
+        }
+
+        private void Confirm(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new InfoPage());
+        }
     }
 }

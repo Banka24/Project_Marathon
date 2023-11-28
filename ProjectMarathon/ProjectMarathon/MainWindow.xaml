@@ -17,6 +17,8 @@
             </Grid.RowDefinitions>
             <Label Background="#505050"/>
             <TextBlock Text="MARATHON SKILLS 2024" Style="{StaticResource TitleText}"/>
+            <Button Content="Назад" Click="GoBackBtn" Style="{StaticResource SmallButton}" Margin="-650,0,0,0"/>
+            <Button Content="Logout" Click="LogoutBtn" Style="{StaticResource SmallButton}" Margin="650,0,0,0"/>
             <TextBlock Text="Москва, Россия" Style="{StaticResource MainText}" Margin="0, 40"/>
             <TextBlock Text="Четверг 31 декабря 2023 года" Style="{StaticResource MainText}" Margin="0, 70, 0, 0"/>
             <Button Name="RunnerButton" Click="RunnerButton_Click" Content="Я хочу стать бегуном" Grid.Row="1" Style="{StaticResource MainButton}" />
@@ -25,7 +27,7 @@
             <Button Name="LoginPage" Content="Login" Grid.Row="3" Grid.RowSpan="4" Click="LoginPage_Click" HorizontalAlignment="Right" Margin="0, 60, 10, 0" Style="{StaticResource SmallButton}"/>
             <Label Grid.Row="4" Background="#505050"/>
             <TextBlock x:Name="lblTimeUntilEvent" Grid.Row="4" Style="{StaticResource TitleText}" FontSize="18" VerticalAlignment="Center"/>
-            <Frame Name="Navigation" NavigationUIVisibility="Hidden" Grid.RowSpan="4"/>
+            <Frame Name="Navigation" NavigationUIVisibility="Hidden" Grid.Row="1" Grid.RowSpan="3"/>
         </Grid>
     </Grid>
 </Window>
