@@ -10,47 +10,52 @@
 
     <Grid Background="White">
         <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
             <RowDefinition Height="250"/>
             <RowDefinition Height="250"/>
         </Grid.RowDefinitions>
-        <TextBlock Style="{StaticResource MainText}"
+        <StackPanel Orientation="Horizontal" Background="#505050" Grid.ColumnSpan="2">
+            <Button Name="GoBackButton" Content="Logout" Margin="10, 0" Click="GoBackButton_Click" Style="{StaticResource SmallButton}"/>
+            <TextBlock Text="MARATHON SKILLS 2024" FontSize="24" Margin="150, 0" VerticalAlignment="Center" Style="{StaticResource TitleText}"/>
+        </StackPanel>
+        <TextBlock Grid.Row="1" Style="{StaticResource MainText}"
                    Text="Форма авторизации"
                    Margin="0,20,0,0"/>
-        <TextBlock Style="{StaticResource DlcText}"
+        <TextBlock Grid.Row="1" Style="{StaticResource DlcText}"
                    Text="Пожалуйста, авторизуйтесь в системе, используя ваш адрес электронной почты"
                    FontSize="18"
-                   Margin="0,40,0,0"/>
-        <TextBlock Style="{StaticResource DlcText}"
+                   Margin="0,70,0,0"/>
+        <TextBlock Grid.Row="1" Style="{StaticResource DlcText}"
                    FontSize="18"
                    Text="и пароль."
-                   Margin="0,60,0,0"/>
-        <TextBlock Style="{StaticResource DlcText}"
+                   Margin="0,90,0,0"/>
+        <TextBlock Grid.Row="1" Style="{StaticResource DlcText}"
                    FontSize="18"
                    Text="Email:"
                    Grid.RowSpan="2"
                    Margin="-200,180,0,0"/>
-        <TextBlock Style="{StaticResource DlcText}"
+        <TextBlock Grid.Row="1" Style="{StaticResource DlcText}"
                    FontSize="18"
                    Text="Password:"
                    Grid.RowSpan="2"
                    Margin="-225,240,0,0"/>
-        <PasswordBox Grid.RowSpan="2"
+        <PasswordBox Grid.Row="1" Grid.RowSpan="2"
                      Width="100"
                      Height="20"/>
-        <TextBox Width="100"
+        <TextBox Grid.Row="1" Width="100"
                  Height="20"
                  Margin="0,131,0,0"/>
-        <Button Grid.RowSpan="2"
+        <Button Grid.Row="1" Grid.RowSpan="2"
                 Style="{StaticResource SmallButton}"
                 Content="Login"
                 Margin="-150,80,0,0"
                 Click="Confirm"/>
-        <Button Grid.RowSpan="2"
+        <Button Grid.Row="1" Grid.RowSpan="2"
                 Style="{StaticResource SmallButton}"
                 Content="Cancel"
                 Margin="150,80,0,0"
                 Click="Cancel"/>
         <Frame Name="Navigation"
-               Grid.RowSpan="3" Navigated="Navigation_Navigated"/>
+               Grid.RowSpan="3"/>
     </Grid>
 </Page>

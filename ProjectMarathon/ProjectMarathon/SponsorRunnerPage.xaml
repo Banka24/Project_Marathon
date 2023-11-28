@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ProjectMarathon"
       mc:Ignorable="d" 
-      d:DesignHeight="550" d:DesignWidth="800"
+      d:DesignHeight="500" d:DesignWidth="800"
       Title="SponsorRunnerPage" Background="White">
 
     <Grid>
@@ -19,9 +19,9 @@
             <RowDefinition/>
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
-        <Frame Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Row="1" Grid.RowSpan="3"/>
+        <Frame Name="Navigation" Grid.RowSpan="3"/>
         <StackPanel Orientation="Horizontal" Background="#505050" Grid.ColumnSpan="2">
-            <Button Name="GoBackButton" Content="Назад" Margin="10, 0" Click="GoBackButton_Click" Style="{StaticResource SmallButton}"/>
+            <Button Name="GoBackButton" Content="Logout" Margin="10, 0" Click="GoBackButton_Click" Style="{StaticResource SmallButton}"/>
             <TextBlock Text="MARATHON SKILLS 2024" FontSize="24" Margin="150, 0" VerticalAlignment="Center" Style="{StaticResource TitleText}"/>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.ColumnSpan="2">
@@ -61,15 +61,15 @@
                     <CheckBox Margin="20, 2, 0, 2" BorderBrush="Orange"/>
                 </StackPanel>                
                     <TextBlock Text="Сумма пожертвования" Margin="0, 20, 0, 0" Style="{StaticResource MainText}"/>
-                    <TextBlock Text="{Binding ElementName=Money, Path=Text}" HorizontalAlignment="Center"/>
+                    <TextBlock Text="{Binding ElementName=MoneyTextBox, Path=Text}" FontSize="42" Height="60" Style="{StaticResource MainText}"/>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                     <Button Name="MinusButton" Width="40" Content="-" Click="MinusButton_Click" Style="{StaticResource SmallButton}"/>
                     <TextBox Name="MoneyTextBox" Margin="10, 0" Width="60" IsReadOnly="True" VerticalScrollBarVisibility="Hidden"/>
                     <Button Name="PlusButton" Width="40" Content="+" Click="PlusButton_Click" Style="{StaticResource SmallButton}"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="40">
-                    <Button Name="GiveMoneyButton" Width="100" Content="Заплатить" Margin="20" Style="{StaticResource SmallButton}"/>
-                    <Button Name="CancelButton" Width="100" Content="Отмена" Margin="20" Style="{StaticResource SmallButton}"/>
+                    <Button Name="GiveMoneyButton" Width="100" Content="Заплатить" Click="GiveMoneyButton_Click" Margin="20" Style="{StaticResource SmallButton}"/>
+                    <Button Name="CancelButton" Width="100" Content="Отмена" Margin="20" Click="CancelButton_Click" Style="{StaticResource SmallButton}"/>
                 </StackPanel>
             </StackPanel>
         </StackPanel>

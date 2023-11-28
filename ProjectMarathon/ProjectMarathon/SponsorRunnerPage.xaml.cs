@@ -29,10 +29,7 @@ namespace ProjectMarathon
 
         private void GoBackButton_Click(object sender, RoutedEventArgs e)
         {
-            if (MainFrame.CanGoBack)
-            {
-                MainFrame.GoBack();
-            }
+            Navigation.Navigate(new NewMainWindow());
         }
 
         private void MinusButton_Click(object sender, RoutedEventArgs e)
@@ -50,6 +47,16 @@ namespace ProjectMarathon
             MoneyTextBox.Clear();
             money += 10;
             MoneyTextBox.Text += $"${money}";
+        }
+
+        private void GiveMoneyButton_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new AcceptSponsorPage());
+        }
+
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new NewMainWindow());
         }
     }
 }

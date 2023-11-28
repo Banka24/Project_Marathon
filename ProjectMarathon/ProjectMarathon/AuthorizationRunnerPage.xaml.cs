@@ -36,9 +36,9 @@ namespace ProjectMarathon
             Navigation.Navigate(new InfoPage());
         }
 
-        private void Navigation_Navigated(object sender, NavigationEventArgs e)
+        private void GoBackButton_Click(object sender, RoutedEventArgs e)
         {
-
+            Navigation.Navigate(new NewMainWindow());
         }
     }
 }
