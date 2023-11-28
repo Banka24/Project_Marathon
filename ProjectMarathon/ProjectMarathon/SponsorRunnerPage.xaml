@@ -59,6 +59,17 @@
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                     <TextBlock Text="Фонд Кошек" FontSize="16" Style="{StaticResource DlcText}"/>
                     <CheckBox Margin="20, 2, 0, 2" BorderBrush="Orange"/>
+                </StackPanel>                
+                    <TextBlock Text="Сумма пожертвования" Margin="0, 20, 0, 0" Style="{StaticResource MainText}"/>
+                    <TextBlock Text="{Binding ElementName=Money, Path=Text}" HorizontalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Name="MinusButton" Width="40" Content="-" Click="MinusButton_Click" Style="{StaticResource SmallButton}"/>
+                    <TextBox Name="MoneyTextBox" Margin="10, 0" Width="60" IsReadOnly="True" VerticalScrollBarVisibility="Hidden"/>
+                    <Button Name="PlusButton" Width="40" Content="+" Click="PlusButton_Click" Style="{StaticResource SmallButton}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="40">
+                    <Button Name="GiveMoneyButton" Width="100" Content="Заплатить" Margin="20" Style="{StaticResource SmallButton}"/>
+                    <Button Name="CancelButton" Width="100" Content="Отмена" Margin="20" Style="{StaticResource SmallButton}"/>
                 </StackPanel>
             </StackPanel>
         </StackPanel>

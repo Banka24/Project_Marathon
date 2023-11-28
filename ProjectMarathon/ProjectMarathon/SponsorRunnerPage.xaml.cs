@@ -20,9 +20,11 @@ namespace ProjectMarathon
     /// </summary>
     public partial class SponsorRunnerPage : Page
     {
+        int money = 0;
         public SponsorRunnerPage()
         {
             InitializeComponent();
+            MoneyTextBox.Text += $"${money}";
         }
 
         private void GoBackButton_Click(object sender, RoutedEventArgs e)
@@ -31,6 +33,23 @@ namespace ProjectMarathon
             {
                 MainFrame.GoBack();
             }
+        }
+
+        private void MinusButton_Click(object sender, RoutedEventArgs e)
+        {
+            if(money > 0 && money - 10 >= 0)
+            {
+                MoneyTextBox.Clear();
+                money -= 10;
+                MoneyTextBox.Text += $"${money}";
+            }
+        }
+
+        private void PlusButton_Click(object sender, RoutedEventArgs e)
+        {
+            MoneyTextBox.Clear();
+            money += 10;
+            MoneyTextBox.Text += $"${money}";
         }
     }
 }
