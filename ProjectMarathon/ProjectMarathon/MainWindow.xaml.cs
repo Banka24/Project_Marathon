@@ -22,41 +22,13 @@ namespace ProjectMarathon
     /// </summary>
     public partial class MainWindow : Window
     {
-        private DateTime eventTime = new DateTime(2023, 12, 31, 10, 0, 0);
-        private DispatcherTimer timer;
-
         public MainWindow()
         {
-            InitializeComponent();
-            timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromSeconds(1);
-            timer.Tick += Timer_Tick;
-            timer.Start();
-        }
-        private void Timer_Tick(object sender, EventArgs e)
-        {
-            TimeSpan timeUntilEvent = eventTime - DateTime.Now;
-            lblTimeUntilEvent.Text = $"{timeUntilEvent.Days} дней {timeUntilEvent.Hours} часов и {timeUntilEvent.Minutes} минут до старта марафона!";
         }
 
-        private void RunnerButton_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Navigation.Navigate(new RunnerPage());
-        }
-
-        private void SponsorRunnerButton_Click(object sender, RoutedEventArgs e)
-        {
-            Navigation.Navigate(new SponsorRunnerPage());
-        }
-
-        private void InfoButton_Click(object sender, RoutedEventArgs e)
-        {
-            Navigation.Navigate(new InfoPage());
-        }
-
-        private void LoginPage_Click(object sender, RoutedEventArgs e)
-        {
-            Navigation.Navigate(new AuthorizationRunnerPage());
+            Navigation.Navigate(new NewMainWindow());
         }
     }
 }

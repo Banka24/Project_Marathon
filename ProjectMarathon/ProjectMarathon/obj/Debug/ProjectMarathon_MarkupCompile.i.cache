@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\
+C:\Naumov\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\
 ProjectMarathon
 none
 false
 DEBUG;TRACE
-D:\Z\Новая папка (2)\Banka24\Project_Marathon\ProjectMarathon\ProjectMarathon\App.xaml
-13-2117724189
+C:\Naumov\Project_Marathon\ProjectMarathon\ProjectMarathon\App.xaml
+14176237119
 
-181023758794
+19-1151938224
 13-1505183044
-AcceptSponsorPage.xaml;AuthorizationRunnerPage.xaml;BMIPage.xaml;BMRPage.xaml;ConfirmNewRunnerPage.xaml;InfoPage.xaml;LoginFormPage.xaml;MainWindow.xaml;MenuRunnerPage.xaml;MySponsorPage.xaml;RegNewRunnerPage.xaml;RunnerPage.xaml;SponsorRunnerPage.xaml;
+AcceptSponsorPage.xaml;AuthorizationRunnerPage.xaml;BMIPage.xaml;BMRPage.xaml;ConfirmNewRunnerPage.xaml;InfoPage.xaml;LoginFormPage.xaml;MainWindow.xaml;MenuRunnerPage.xaml;MySponsorPage.xaml;NewMainWindow.xaml;RegNewRunnerPage.xaml;RunnerPage.xaml;SponsorRunnerPage.xaml;
 
 True
 
