@@ -10,56 +10,52 @@
 
     <Grid Background="White">
         <Grid.RowDefinitions>
-            <RowDefinition Height="60*"/>
-            <RowDefinition Height="167*"/>
-            <RowDefinition Height="225*"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="250"/>
         </Grid.RowDefinitions>
-        <TextBox Grid.RowSpan="3" 
-             Width="110" 
-             Height="20"
-             FontSize="10"
-             Foreground="#808080"
-             Margin="0,-180,0,0"
-             Text="Введите ваш адрес"/>
-        <TextBox Grid.RowSpan="3" 
-             Width="110" 
-             Height="20"
-             FontSize="10"
-             Foreground="#808080"
-             Margin="0,-135,0,0"
-             Text="Введите ваш пароль"/>
-        <Button Grid.Row="3"
-            Style="{StaticResource SmallButton}"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center"
-            Content="Войти"
-            FontSize="12"
-            Width="50"
-            Height="20"
-            Margin="-100,-280,0,0"/>
-        <Button Grid.Row="3"
-            Style="{StaticResource SmallButton}"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center"
-            Content="Отмена"
-            FontSize="12"
-            Width="50"
-            Height="20"
-            Margin="100,-280,0,0"/>
-        <TextBlock FontSize="12" Foreground="#b4b4b4" Grid.Row="1" Grid.RowSpan="3" Text="Email:" Margin="271,50,0,0"/>
-        <TextBlock FontSize="12" Foreground="#b4b4b4" Grid.Row="1" Grid.RowSpan="3" Text="Password:" Margin="250,70,0,0"/>
-        <TextBlock Text="Форма авторизации"
-               FontSize="20"
-               Foreground="#b4b4b4" Margin="305,35,0,0" Grid.RowSpan="2"/>
-        <TextBlock Text="Пожалуйста, авторизуйтесь в системе, используя ваш адрес электронной почты"
-               Foreground="#b4b4b4"
-               Margin="142,2.300,142,60"
-               FontSize="14" Grid.Row="1"/>
-        <TextBlock Text="и пароль."
-               Margin="369,17.308,369,75"
-               FontSize="14"
-               Foreground="#b4b4b4" Grid.Row="1"/>
-        <Frame Name="NavigationPage" 
-           Grid.RowSpan="3" Content=""/>
+        <StackPanel Orientation="Horizontal" Background="#505050" Grid.ColumnSpan="2">
+            <Button Name="GoBackButton" Content="Logout" Margin="10, 0" Click="GoBackButton_Click" Style="{StaticResource SmallButton}"/>
+            <TextBlock Text="MARATHON SKILLS 2024" FontSize="24" Margin="150, 0" VerticalAlignment="Center" Style="{StaticResource TitleText}"/>
+        </StackPanel>
+        <TextBlock Grid.Row="1" Style="{StaticResource MainText}"
+                   Text="Форма авторизации"
+                   Margin="0,20,0,0"/>
+        <TextBlock Grid.Row="1" Style="{StaticResource DlcText}"
+                   Text="Пожалуйста, авторизуйтесь в системе, используя ваш адрес электронной почты"
+                   FontSize="18"
+                   Margin="0,70,0,0"/>
+        <TextBlock Grid.Row="1" Style="{StaticResource DlcText}"
+                   FontSize="18"
+                   Text="и пароль."
+                   Margin="0,90,0,0"/>
+        <TextBlock Grid.Row="1" Style="{StaticResource DlcText}"
+                   FontSize="18"
+                   Text="Email:"
+                   Grid.RowSpan="2"
+                   Margin="-200,180,0,0"/>
+        <TextBlock Grid.Row="1" Style="{StaticResource DlcText}"
+                   FontSize="18"
+                   Text="Password:"
+                   Grid.RowSpan="2"
+                   Margin="-225,240,0,0"/>
+        <PasswordBox Grid.Row="1" Grid.RowSpan="2"
+                     Width="100"
+                     Height="20"/>
+        <TextBox Grid.Row="1" Width="100"
+                 Height="20"
+                 Margin="0,131,0,0"/>
+        <Button Grid.Row="1" Grid.RowSpan="2"
+                Style="{StaticResource SmallButton}"
+                Content="Login"
+                Margin="-150,80,0,0"
+                Click="Confirm"/>
+        <Button Grid.Row="1" Grid.RowSpan="2"
+                Style="{StaticResource SmallButton}"
+                Content="Cancel"
+                Margin="150,80,0,0"
+                Click="Cancel"/>
+        <Frame Name="Navigation"
+               Grid.RowSpan="3"/>
     </Grid>
 </Page>

@@ -85,6 +85,9 @@
     <Compile Include="MySponsorPage.xaml.cs">
       <DependentUpon>MySponsorPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="NewMainWindow.xaml.cs">
+      <DependentUpon>NewMainWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RegNewRunnerPage.xaml.cs">
       <DependentUpon>RegNewRunnerPage.xaml</DependentUpon>
     </Compile>
@@ -143,6 +146,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MySponsorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewMainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

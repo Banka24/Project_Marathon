@@ -20,17 +20,43 @@ namespace ProjectMarathon
     /// </summary>
     public partial class SponsorRunnerPage : Page
     {
+        public int money = 0;        
         public SponsorRunnerPage()
         {
             InitializeComponent();
+            MoneyTextBox.Text += $"${money}";
         }
 
         private void GoBackButton_Click(object sender, RoutedEventArgs e)
         {
-            if (MainFrame.CanGoBack)
+            Navigation.Navigate(new NewMainWindow());
+        }
+
+        private void MinusButton_Click(object sender, RoutedEventArgs e)
+        {
+            if(money > 0 && money - 10 >= 0)
             {
-                MainFrame.GoBack();
+                MoneyTextBox.Clear();
+                money -= 10;
+                MoneyTextBox.Text += $"${money}";
             }
+        }
+
+        private void PlusButton_Click(object sender, RoutedEventArgs e)
+        {
+            MoneyTextBox.Clear();
+            money += 10;
+            MoneyTextBox.Text += $"${money}";
+        }
+
+        private void GiveMoneyButton_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new AcceptSponsorPage());
+        }
+
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new NewMainWindow());
         }
     }
 }

@@ -20,9 +20,16 @@ namespace ProjectMarathon
     /// </summary>
     public partial class AcceptSponsorPage : Page
     {
+        SponsorRunnerPage sponsor = new SponsorRunnerPage();
         public AcceptSponsorPage()
         {
             InitializeComponent();
+            MoneyTextBlock.Text += sponsor.MoneyTextBox.Text;
+        }
+
+        private void GoBack_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new SponsorRunnerPage());
         }
     }
 }
