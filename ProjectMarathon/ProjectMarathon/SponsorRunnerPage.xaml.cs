@@ -20,7 +20,7 @@ namespace ProjectMarathon
     /// </summary>
     public partial class SponsorRunnerPage : Page
     {
-        int money = 0;
+        public int money = 0;        
         public SponsorRunnerPage()
         {
             InitializeComponent();

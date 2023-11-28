@@ -58,18 +58,5 @@ namespace ProjectMarathon
         {
             Navigation.Navigate(new AuthorizationRunnerPage());
         }
-
-        private void GoBackBtn(object sender, RoutedEventArgs e)
-        {
-            if (Navigation.CanGoBack)
-            {
-                Navigation.GoBack();
-            }
-        }
-
-        private void LogoutBtn(object sender, RoutedEventArgs e)
-        {
-            Navigation.Navigate(new NewMainWindow());
-        }
     }
 }

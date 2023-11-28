@@ -88,7 +88,7 @@ namespace ProjectMarathon
 
         private void CancelBtn(object sender, RoutedEventArgs e)
         {
-            NavigationPage.Navigate(new RegNewRunnerPage());
+            NavigationPage.Navigate(new RunnerPage());
         }
     }
 }
