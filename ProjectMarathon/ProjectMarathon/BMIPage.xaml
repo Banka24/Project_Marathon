@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:ProjectMarathon"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="BMIPage">
+      Title="BMIPage" Background="White">
 
     <Grid>
         

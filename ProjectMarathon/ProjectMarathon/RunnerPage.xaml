@@ -5,18 +5,29 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ProjectMarathon"
       mc:Ignorable="d" 
-      d:DesignHeight="500" d:DesignWidth="800"
+      d:DesignHeight="450" d:DesignWidth="800"
       Title="RunnerPage">
 
     <Grid Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition Height="200"/>
-            <RowDefinition Height="250"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
-        <Label Background="#505050"/>
-        <TextBlock Text="MARATHON SKILLS 2024" Style="{StaticResource TitleText}"/>
-        <Button Content="Logout" Click="LogoutBtn" Style="{StaticResource SmallButton}" Margin="650,0,0,0"/>
+        <TextBlock
+            Foreground="#ffffff"
+            Background="#505050"/>
+        <TextBlock Text="MARATHON SKILLS 2024"
+                   Style="{StaticResource TitleText}"
+                   FontSize="24"
+                   Margin="-200, 10, 0, 0"/>
+        <Button Content="Назад" 
+                Width="70"
+                Height="30"
+                Style="{StaticResource MainButton}"
+                Click="Back"
+                Margin="-700,-5,0,0"/>
         <Button Grid.Row="1"
                 Width="250"
                 Height="100"
@@ -36,7 +47,6 @@
                 Grid.RowSpan="4"
                 Height="30"
                 Width="70"
-                Click="Button_Click"
                 HorizontalAlignment="Right"
                 Style="{StaticResource MainButton}"
                 Margin="0, 120, 10, 0"/>
