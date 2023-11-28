@@ -158,3 +158,5 @@ C:\Users\Programmer\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMaratho
 C:\Users\Programmer\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.csproj.CoreCompileInputs.cache
 C:\Users\Programmer\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.exe
 C:\Users\Programmer\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.pdb
+C:\Users\Programmer\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\NewMainWindow.g.cs
+C:\Users\Programmer\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\NewMainWindow.baml
