@@ -29,5 +29,18 @@ namespace ProjectMarathon
         {
             Navigation.Navigate(new RegNewRunnerPage());
         }
+
+        private void AuthBtn(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new AuthorizationRunnerPage());
+        }
+
+        private void Back(object sender, RoutedEventArgs e)
+        {
+            if (Navigation.CanGoBack)
+            {
+                Navigation.GoBack();
+            }
+        }
     }
 }

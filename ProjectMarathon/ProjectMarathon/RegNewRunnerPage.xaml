@@ -45,10 +45,12 @@
                    Margin="8,20,0,0"/>
         <TextBlock Grid.RowSpan="2"
                    Text="Имя:"
+                   Name="TextBoxName"
                    VerticalAlignment="Center"
                    Margin="86,80,0,0"/>
         <TextBlock Grid.RowSpan="2"
                    Text="Фамилия:"
+                   Name="TextBoxSurname"
                    VerticalAlignment="Center"
                    Margin="60,140,0,0"/>
         <TextBlock Grid.RowSpan="2"
@@ -64,11 +66,13 @@
                  Margin="-410,-100,0,0"/>
         <PasswordBox Grid.RowSpan="2"
                  Width="130"
+                 Name="password"
                  Foreground="#808080"
                  Height="20"
                  Margin="-410,-40,0,0"/>
         <PasswordBox Grid.RowSpan="2"
                  Width="130"
+                 Name="password_copy"
                  Foreground="#808080"
                  Height="20"
                  Margin="-410,20,0,0"/>
@@ -128,7 +132,6 @@
                  Height="20"
                  Margin="610,210,0,0"
                  Foreground="#808080"
-                 IsReadOnly="True"
                  Text="1978-07-16"/>
         
         <TextBlock Grid.RowSpan="2"
@@ -147,6 +150,7 @@
                 Height="20"
                 FontSize="14"
                 Content="Регистрация"
+                Name="Confirm"
                 Click="ConfirmNewRunnerButton"
                 Style="{StaticResource MainButton}"
                 Margin="0,320,650,0"/>
@@ -155,6 +159,7 @@
                 Height="20"
                 FontSize="14"
                 Content="Отмена"
+                Click="CancelBtn"
                 Style="{StaticResource MainButton}"
                 Margin="0,320,410,0"/>
         <Frame Name="NavigationPage"
