@@ -163,6 +163,6 @@
                 Style="{StaticResource MainButton}"
                 Margin="0,320,410,0"/>
         <Frame Name="NavigationPage"
-               Grid.RowSpan="2"/>
+               Grid.RowSpan="3"/>
     </Grid>
 </Page>

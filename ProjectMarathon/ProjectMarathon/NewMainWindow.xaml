@@ -18,8 +18,7 @@
                     <RowDefinition Height="30"/>
                 </Grid.RowDefinitions>
                 <Label Background="#505050"/>
-                <TextBlock Text="MARATHON SKILLS 2024" Style="{StaticResource TitleText}"/>
-                <Button Content="Logout" Click="LogoutBtn" Style="{StaticResource SmallButton}" Margin="650,0,0,0"/>
+                <TextBlock Text="MARATHON SKILLS 2024" Style="{StaticResource TitleText}"/>                
                 <TextBlock Text="Москва, Россия" Style="{StaticResource MainText}" Margin="0, 40"/>
                 <TextBlock Text="Четверг 31 декабря 2023 года" Style="{StaticResource MainText}" Margin="0, 70, 0, 0"/>
                 <Button Name="RunnerButton" Click="RunnerButton_Click" Content="Я хочу стать бегуном" Grid.Row="1" Style="{StaticResource MainButton}" />
