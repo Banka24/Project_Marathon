@@ -202,3 +202,5 @@ C:\Naumov\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMara
 C:\Naumov\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.csproj.CoreCompileInputs.cache
 C:\Naumov\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.exe
 C:\Naumov\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.pdb
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\NewMainWindow.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\NewMainWindow.baml
