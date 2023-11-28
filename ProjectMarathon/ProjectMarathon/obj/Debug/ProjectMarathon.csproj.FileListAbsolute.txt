@@ -122,3 +122,7 @@ D:\Lashmanov5\ProjectMarathon\ProjectMarathon\obj\Debug\Contactinfo.g.cs
 D:\Lashmanov5\ProjectMarathon\ProjectMarathon\obj\Debug\Contactinfo.baml
 D:\Lashmanov5\ProjectMarathon\ProjectMarathon\obj\Debug\NewMainWindow.g.cs
 D:\Lashmanov5\ProjectMarathon\ProjectMarathon\obj\Debug\NewMainWindow.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\Contactinfo.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\NewMainWindow.g.cs
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\NewMainWindow.baml
+C:\Users\brutforce\Source\Repos\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\Contactinfo.baml

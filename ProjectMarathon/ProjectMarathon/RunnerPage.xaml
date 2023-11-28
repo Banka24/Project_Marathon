@@ -22,12 +22,11 @@
                    Style="{StaticResource TitleText}"
                    FontSize="24"
                    Margin="-200, 10, 0, 0"/>
-        <Button Content="Назад" 
-                Width="70"
-                Height="30"
-                Style="{StaticResource MainButton}"
-                Click="Back"
-                Margin="-700,-5,0,0"/>
+        <Button Style="{StaticResource SmallButton}"
+                FontSize="14"
+                Margin="680,0,0,0"
+                Content="Logout"
+                Click="Back"/>
         <Button Grid.Row="1"
                 Width="250"
                 Height="100"
@@ -49,7 +48,8 @@
                 Width="70"
                 HorizontalAlignment="Right"
                 Style="{StaticResource MainButton}"
-                Margin="0, 120, 10, 0"/>
+                Margin="0, 120, 10, 0"
+                Click="AuthFormBtn"/>
         <Frame Name="Navigation"
                Grid.RowSpan="4"/>
     </Grid>

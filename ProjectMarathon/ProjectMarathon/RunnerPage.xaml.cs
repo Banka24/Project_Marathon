@@ -37,15 +37,10 @@ namespace ProjectMarathon
 
         private void Back(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void LogoutBtn(object sender, RoutedEventArgs e)
-        {
             Navigation.Navigate(new NewMainWindow());
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void AuthFormBtn(object sender, RoutedEventArgs e)
         {
             Navigation.Navigate(new AuthorizationRunnerPage());
         }

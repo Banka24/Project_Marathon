@@ -41,5 +41,15 @@ namespace ProjectMarathon
         {
             Navigation1.Navigate(new MySponsorPage());
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
