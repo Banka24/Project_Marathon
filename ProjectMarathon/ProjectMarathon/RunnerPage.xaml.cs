@@ -34,5 +34,13 @@ namespace ProjectMarathon
         {
             Navigation.Navigate(new AuthorizationRunnerPage());
         }
+
+        private void Back(object sender, RoutedEventArgs e)
+        {
+            if (Navigation.CanGoBack)
+            {
+                Navigation.GoBack();
+            }
+        }
     }
 }
