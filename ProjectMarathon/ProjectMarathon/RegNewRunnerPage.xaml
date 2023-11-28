@@ -10,8 +10,8 @@
 
     <Grid Background="White">
         <Grid.RowDefinitions>
-            <RowDefinition Height="200"/>
-            <RowDefinition Height="200"/>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="250"/>
         </Grid.RowDefinitions>
         <TextBlock
             Text="Регистрация бегуна"
