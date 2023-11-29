@@ -24,5 +24,9 @@ namespace ProjectMarathon
         {
             InitializeComponent();
         }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(new NewMainWindow());
+        }
     }
 }
