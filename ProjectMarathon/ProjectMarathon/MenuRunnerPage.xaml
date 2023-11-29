@@ -29,7 +29,7 @@
                 <Button Click="Button_Click_1" Content="Редактирование профиля" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" HorizontalAlignment="Left" Width="300"/>
                 <Button Click="Contact_Click" Content="Контактная информация" Grid.Row="2" Style="{StaticResource MainButton}"
                         x:Name="Contact" Margin="50, 5" HorizontalAlignment="Left" Width="300"/>
-            </StackPanel>
+                </StackPanel>
             <StackPanel HorizontalAlignment="Right">
                 <Button Click="Button_Click_3" Content="Мои результаты" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" 
                         HorizontalAlignment="Right" Width="300"/>
