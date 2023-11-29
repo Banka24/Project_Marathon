@@ -92,6 +92,18 @@
                    Text="$185"
                    Foreground="#b4b4b4"
                    FontSize="16" Height="20" Width="68"/>
+        <Ellipse Fill="#FFCA86"
+                 Width="120" 
+                 Height="120" 
+                 Margin="-50,-80,0,0"
+                 Grid.Row="2"
+                 Grid.RowSpan="3"/>
+        <TextBlock Text="Logo"
+                   Grid.Row="2"
+                   Grid.RowSpan="3"
+                   Foreground="#b4b4b4"
+                   FontSize="30"
+                   Margin="142,90,0,0"/>
         <Frame x:Name="MyFrame" NavigationUIVisibility="Hidden" Grid.RowSpan="5" Grid.ColumnSpan="2"/>
     </Grid>
 </Page>
