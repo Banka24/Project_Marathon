@@ -101,7 +101,7 @@ namespace ProjectMarathon
 
         private void Cancel(object sender, RoutedEventArgs e)
         {
-            MyFrame.Navigate(new NewMainWindow());
+            MyFrame.Navigate(new InfoPage());
         }
     }
 }

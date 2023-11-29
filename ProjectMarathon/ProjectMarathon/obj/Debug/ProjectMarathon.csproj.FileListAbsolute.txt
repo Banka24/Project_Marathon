@@ -258,3 +258,7 @@ D:\Z\Новая папка (2)\ProjectMarathon\ProjectMarathon\obj\Debug\Project
 D:\Z\Новая папка (2)\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.csproj.CoreCompileInputs.cache
 D:\Z\Новая папка (2)\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.exe
 D:\Z\Новая папка (2)\ProjectMarathon\ProjectMarathon\obj\Debug\ProjectMarathon.pdb
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ContactInfo.g.cs
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\NewMainWindow.g.cs
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\ContactInfo.baml
+D:\learn\Practic\Project_Marathon\ProjectMarathon\ProjectMarathon\obj\Debug\NewMainWindow.baml

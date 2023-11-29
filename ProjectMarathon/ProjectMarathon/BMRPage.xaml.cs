@@ -55,7 +55,7 @@ namespace ProjectMarathon
 
         private void Cancel_Click(object sender, RoutedEventArgs e)
         {
-            MyFrame.Navigate(new NewMainWindow());
+            MyFrame.Navigate(new InfoPage());
         }
     }
 }

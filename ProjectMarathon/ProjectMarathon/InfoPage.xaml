@@ -36,6 +36,7 @@
                         Width="300" x:Name="BMR"/>
             </StackPanel>
         </StackPanel>
+        <Button Name="CancelButton" Content="Cancel" Grid.Row="4" Click="CancelButton_Click" Style="{StaticResource SmallButton}"/>
         <Frame x:Name="Navigation" Grid.RowSpan="5"/>
     </Grid>
 </Page>

@@ -54,5 +54,10 @@ namespace ProjectMarathon
         {
             Navigation.Navigate(new BMRPage());
         }
+
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.Navigate(new NewMainWindow());
+        }
     }
 }

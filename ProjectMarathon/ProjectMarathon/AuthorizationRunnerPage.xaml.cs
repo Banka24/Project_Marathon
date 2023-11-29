@@ -28,7 +28,7 @@ namespace ProjectMarathon
 
         private void Cancel(object sender, RoutedEventArgs e)
         {
-            Navigation.Navigate(new NewMainWindow());
+            Navigation.Navigate(new RunnerPage());
         }
 
         private void Confirm(object sender, RoutedEventArgs e)
