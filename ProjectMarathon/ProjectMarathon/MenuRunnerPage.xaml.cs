@@ -29,7 +29,8 @@ namespace ProjectMarathon
 
         private void Contact_Click(object sender, RoutedEventArgs e)
         {
-            Navigation.Navigate(new Contactinfo());
+            ContactInfo taskWindow = new ContactInfo();
+            taskWindow.Show();
         }
 
         private void Registr_Click(object sender, RoutedEventArgs e)
