@@ -24,5 +24,10 @@ namespace ProjectMarathon
         {
             InitializeComponent();
         }
+
+        private void Back(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(new NewMainWindow());
+        }
     }
 }
