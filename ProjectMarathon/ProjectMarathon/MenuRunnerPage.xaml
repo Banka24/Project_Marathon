@@ -5,10 +5,40 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ProjectMarathon"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="MenuRunnerPage">
+      d:DesignHeight="500" d:DesignWidth="800"
+      Title="MenuRunnerPage" Background="White">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="285"/>
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+        <Label Background="#505050"/>
+        <TextBlock Text="MARATHON SKILLS 2024" Style="{StaticResource TitleText}" VerticalAlignment="Center"/>
+        <Button Style="{StaticResource SmallButton}"
+                Margin="650,0,0,0"
+                Content="Logout"
+                Click="Logout"/>
+        <TextBlock Style="{StaticResource MainText}" Text="Меню бегуна" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <StackPanel Grid.Row="2">
+                <Button Click="Registr_Click" Content="Регистраиця на марафон" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5"
+                        HorizontalAlignment="Left" Width="300" x:Name="Registr"/>
+                <Button Click="Button_Click_1" Content="Редактирование профиля" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" HorizontalAlignment="Left" Width="300"/>
+                <Button Click="Contact_Click" Content="Контактная информация" Grid.Row="2" Style="{StaticResource MainButton}"
+                        x:Name="Contact" Margin="50, 5" HorizontalAlignment="Left" Width="300"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Right">
+                <Button Click="Button_Click_3" Content="Мои результаты" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" 
+                        HorizontalAlignment="Right" Width="300"/>
+                <Button Click="sponsor_Click" Content="Мой спонсор" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" 
+                        Width="300" x:Name="sponsor"/>
+            </StackPanel>
+        </StackPanel>
+        <Frame Name="Navigation" NavigationUIVisibility="Hidden" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center"
+               Height="250" Width="550"/>
+        <Frame x:Name="Navigation1" NavigationUIVisibility="Hidden" Grid.RowSpan="5"/>
     </Grid>
 </Page>

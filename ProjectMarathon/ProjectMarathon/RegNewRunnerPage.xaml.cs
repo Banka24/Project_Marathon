@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Win32;
+using System.Timers;
+using System.Windows.Threading;
 
 namespace ProjectMarathon
 {
@@ -71,6 +73,15 @@ namespace ProjectMarathon
                 MessageBox.Show("Проверьте введенные данные. Пароль должен быть не менее 6 символов, адрес электронной почты - не менее 5 символов, а имя и фамилия должны иметь соответствующую длину.");
                 Confirm.IsEnabled = false; // Деактивация кнопки в случае невыполнения условий
             }
+            // Создание таймера для включения кнопки через 5 секунд
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(5);
+            timer.Tick += (s, ev) =>
+            {
+                Confirm.IsEnabled = true;
+                timer.Stop(); // Остановка таймера
+            };
+            timer.Start(); // Запуск таймера
         }
 
         private void SelectImage_Click(object sender, RoutedEventArgs e)
@@ -88,7 +99,7 @@ namespace ProjectMarathon
 
         private void CancelBtn(object sender, RoutedEventArgs e)
         {
-            NavigationPage.Navigate(new RegNewRunnerPage());
+            NavigationPage.Navigate(new RunnerPage());
         }
     }
 }

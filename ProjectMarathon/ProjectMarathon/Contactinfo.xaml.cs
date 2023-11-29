@@ -16,23 +16,18 @@ using System.Windows.Shapes;
 namespace ProjectMarathon
 {
     /// <summary>
-    /// Логика взаимодействия для ConfirmNewRunnerPage.xaml
+    /// Логика взаимодействия для Contactinfo.xaml
     /// </summary>
-    public partial class ConfirmNewRunnerPage : Page
+    public partial class Contactinfo : Page
     {
-        public ConfirmNewRunnerPage()
+        public Contactinfo()
         {
             InitializeComponent();
         }
 
-        private void MenuRunnerButton(object sender, RoutedEventArgs e)
+        private void rb_Click(object sender, RoutedEventArgs e)
         {
-            NavigationPage.Navigate(new MenuRunnerPage());
-        }
-
-        private void Logout(object sender, RoutedEventArgs e)
-        {
-            NavigationPage.Navigate(new NewMainWindow());
+            
         }
     }
 }

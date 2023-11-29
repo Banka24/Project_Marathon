@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ProjectMarathon",
+    "\\ProjectMarathon\\ProjectMarathon"
   ],
-  "SelectedNode": "\\ProjectMarathon.sln",
+  "SelectedNode": "\\ProjectMarathon\\ProjectMarathon.sln",
   "PreviewInSolutionExplorer": false
 }
