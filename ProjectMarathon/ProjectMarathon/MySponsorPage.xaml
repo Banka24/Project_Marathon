@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ProjectMarathon"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="500" d:DesignWidth="800"
       Title="MySponsorPage">
     <Grid Background="White">
         <Grid.RowDefinitions>
@@ -33,60 +33,65 @@
                 Margin="250,0,0,0"
                 Click="Button_Click"/>
         <TextBlock Grid.Row="1" Text="Мои спонсоры" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.ColumnSpan="2" />
-        <TextBlock Grid.Row="1" Text="Здесь показаны все ваши спонсоры в Marathon Skills 2016." FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+        <TextBlock Grid.Row="1" Text="Здесь показаны все ваши спонсоры в Marathon Skills 2024." FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
         <TextBlock Text="                Наименование &#x0a; благотворительной организации" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="2" Margin="22,0,99,0" Style="{StaticResource MainText}"/>
         <TextBlock Text="Это было бы длинным описанием &#x0a; благотворительности. Это могло пойти &#x0a; для нескольких параграфов." FontSize="16"  Grid.Row="3" Margin="22,73,42,3" />
         <TextBlock Text="Это - больше описания здесь, и это - &#x0a; еще часть описания также." FontSize="16" Grid.Row="4" Margin="22,7,42,5"/>
-        <TextBlock Text="спонсор" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="2" Margin="38,6,286,0" Style="{StaticResource MainText}" Width="76"/>
-        <TextBlock Text="Взнос" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="2" Margin="282,6,54,0" Style="{StaticResource MainText}" Width="64"/>
-        <TextBlock Text="Наименование" FontSize="16" Grid.Column="1"  Grid.Row="2" Margin="38,49,228,22" />
-        <TextBlock Text="Наименование" FontSize="16" Grid.Column="1"  Grid.Row="2" Margin="38,79,228,130" Grid.RowSpan="2" />
-        <TextBlock Text="Наименование" FontSize="16" Grid.Column="1"  Grid.Row="3" Margin="38,7,242,96" />
-        <TextBlock Text="Наименование" FontSize="16" Grid.Column="1"  Grid.Row="3" Margin="38,28,242,74" />
-        <TextBlock Text="Наименование" FontSize="16" Grid.Column="1"  Grid.Row="3" Margin="38,50,242,52" />
+        <TextBlock Text="Спонсор" 
+                   Grid.Row="2"
+                   Grid.Column="1"
+                   Foreground="#b4b4b4"
+                   FontSize="18"
+                   Margin="32,4,0,0"/>
+        <TextBlock Text="Взнос" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1" Grid.Row="2" Margin="260,6,54,0" Foreground="#b4b4b4"/>
+        <TextBlock Text="Наименование" FontSize="16" Grid.Column="1"  Grid.Row="2" Grid.RowSpan="3" Margin="30,150,0,0" Foreground="#b4b4b4"/>
+        <TextBlock Text="Наименование" FontSize="16" Grid.Column="1"  Grid.Row="2" Grid.RowSpan="3" Margin="30,130,0,0" Foreground="#b4b4b4" />
+        <TextBlock Text="Наименование" FontSize="16" Grid.Column="1"  Grid.Row="2" Grid.RowSpan="3" Margin="30,108,0,0" Foreground="#b4b4b4" />
+        <TextBlock Text="Наименование" FontSize="16" Grid.Column="1"  Grid.Row="2" Grid.RowSpan="3" Margin="30,87,0,0" Foreground="#b4b4b4"/>
+        <TextBlock Text="Наименование" FontSize="16" Grid.Column="1"  Grid.Row="2" Grid.RowSpan="3" Margin="30,67,0,0" Foreground="#b4b4b4" />
         <TextBlock Text="__________________________" FontSize="30" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <TextBlock Grid.Row="3"
                    VerticalAlignment="Center"
                    Margin="186,95,50,0"
                    Grid.Column="1"
                    Text="Всего  $185"
-                   Style="{StaticResource MainText}"
+                   Foreground="#b4b4b4"
                    FontSize="30" Height="46" Width="164"/>
         <TextBlock Grid.Row="2"
                    VerticalAlignment="Center"
-                   Margin="285,82,54,138"
+                   Margin="290,39,54,138"
                    Grid.Column="1"
                    Text="$185"
-                   Style="{StaticResource MainText}"
-                   FontSize="16" Height="22" Width="61" Grid.RowSpan="2"/>
-        <TextBlock Grid.Row="2"
+                   Foreground="#b4b4b4"
+                   FontSize="16" Height="22" Width="61" Grid.RowSpan="3"/>
+        <TextBlock Grid.Column="1"
+                   Grid.Row="2"
+                   Grid.RowSpan="3"
+                   Text="$185"
+                   FontSize="16"
+                   Margin="290,68,0,0"
+                   Foreground="#b4b4b4"/>
+        <TextBlock Grid.Row="3"
                    VerticalAlignment="Center"
-                   Margin="285,49,47,33"
+                   Margin="290,10,47,112"
                    Grid.Column="1"
                    Text="$185"
-                   Style="{StaticResource MainText}"
+                   Foreground="#b4b4b4"
                    FontSize="16" Height="19" Width="68"/>
         <TextBlock Grid.Row="3"
                    VerticalAlignment="Center"
-                   Margin="285,10,47,112"
+                   Margin="290,53,47,69"
                    Grid.Column="1"
                    Text="$185"
-                   Style="{StaticResource MainText}"
+                   Foreground="#b4b4b4"
                    FontSize="16" Height="19" Width="68"/>
         <TextBlock Grid.Row="3"
                    VerticalAlignment="Center"
-                   Margin="285,53,47,69"
+                   Margin="290,31,47,90"
                    Grid.Column="1"
                    Text="$185"
-                   Style="{StaticResource MainText}"
-                   FontSize="16" Height="19" Width="68"/>
-        <TextBlock Grid.Row="3"
-                   VerticalAlignment="Center"
-                   Margin="285,31,47,90"
-                   Grid.Column="1"
-                   Text="$185"
-                   Style="{StaticResource MainText}"
+                   Foreground="#b4b4b4"
                    FontSize="16" Height="20" Width="68"/>
-        <Frame x:Name="MyFrame" NavigationUIVisibility="Hidden" Grid.RowSpan="5" Grid.ColumnSpan="2" Margin="0,10,0,-10"/>
+        <Frame x:Name="MyFrame" NavigationUIVisibility="Hidden" Grid.RowSpan="5" Grid.ColumnSpan="2"/>
     </Grid>
 </Page>
