@@ -22,8 +22,8 @@ namespace ProjectMarathon
         public ContactInfo()
         {
             InitializeComponent();
-            this.WindowStyle = WindowStyle.None;
-            this.AllowsTransparency = true;
+            WindowStyle = WindowStyle.None;
+            AllowsTransparency = true;
         }
 
         private void rb_Click(object sender, RoutedEventArgs e)

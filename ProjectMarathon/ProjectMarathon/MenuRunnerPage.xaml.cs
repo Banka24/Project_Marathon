@@ -30,7 +30,7 @@ namespace ProjectMarathon
         private void Contact_Click(object sender, RoutedEventArgs e)
         {
             ContactInfo taskWindow = new ContactInfo();
-            taskWindow.Show();
+            taskWindow.Show();           
         }
 
         private void Registr_Click(object sender, RoutedEventArgs e)
