@@ -27,6 +27,11 @@ namespace ProjectMarathon
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MyFrame.Navigate(new NewMainWindow());
+        }   
+       
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(new MenuRunnerPage());
         }
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)

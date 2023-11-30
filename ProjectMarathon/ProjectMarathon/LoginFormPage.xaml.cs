@@ -22,12 +22,23 @@ namespace ProjectMarathon
     {
         public LoginFormPage()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
 
         private void Back(object sender, RoutedEventArgs e)
         {
             MyFrame.Navigate(new NewMainWindow());
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(new MenuRunnerPage());
+        }
+
+        private void MoneyTextBox_IsKeyboardFocusedChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            MoneyTextBlock.Text = "";
+            MoneyTextBlock.Text += '$' + MoneyTextBox.Text;
         }
     }
 }

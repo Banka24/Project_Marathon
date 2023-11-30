@@ -24,7 +24,7 @@
         <TextBlock Style="{StaticResource MainText}" Text="Меню бегуна" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <StackPanel Grid.Row="2" Orientation="Horizontal">
             <StackPanel Grid.Row="2">
-                <Button Click="Registr_Click" Content="Регистраиця на марафон" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5"
+                <Button Click="Registr_Click" Content="Регистрация на марафон" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5"
                         HorizontalAlignment="Left" Width="300" x:Name="Registr"/>
                 <Button Click="Button_Click_1" Content="Редактирование профиля" Grid.Row="2" Style="{StaticResource MainButton}" Margin="50, 5" HorizontalAlignment="Left" Width="300"/>
                 <Button Click="Contact_Click" Content="Контактная информация" Grid.Row="2" Style="{StaticResource MainButton}"

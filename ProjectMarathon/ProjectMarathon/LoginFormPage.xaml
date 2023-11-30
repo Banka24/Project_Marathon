@@ -56,18 +56,19 @@
             <ComboBoxItem Content="Фонд кошек"/>
             <ComboBoxItem Content="Фонд благотворительности"/>
         </ComboBox>
-        <TextBox Grid.Row="3" VerticalAlignment="Center" Margin="151,76,50,45" Height="18" />
+        <TextBox Grid.Row="3" Name="MoneyTextBox" IsKeyboardFocusedChanged="MoneyTextBox_IsKeyboardFocusedChanged" VerticalAlignment="Center" Margin="151,76,50,45" Height="18" />
         <TextBlock Text="Регистрационный взнос" FontSize="30" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <Button Content="Регистрация" Grid.Row="4" VerticalAlignment="Top" HorizontalAlignment="Center"  Height="19" Width="125" Margin="29,0,188,0"/>
-        <Button Content="Отмена" Grid.Row="4" VerticalAlignment="Top" HorizontalAlignment="Center"  Height="19" Width="125" Margin="180,0,37,22"/>
+        <Button Content="Отмена" Grid.Row="4" VerticalAlignment="Top" HorizontalAlignment="Center" Click="Button_Click" Height="19" Width="125" Margin="180,0,37,22"/>
         <TextBlock Grid.Row="3"
                    Grid.RowSpan="4"
+                   Name="MoneyTextBlock"
                    VerticalAlignment="Center"
                    Margin="0,80,0,0"
                    Grid.Column="2"
-                   Text="$185"
                    Style="{StaticResource MainText}"
-                   FontSize="50"/>
+                   FontSize="50"
+                   Text="{Binding ElementName=MoneyTextBox, Path=Text, UpdateSourceTrigger=PropertyChanged}"/>
         <Frame x:Name="MyFrame" NavigationUIVisibility="Hidden" Grid.RowSpan="5" Grid.ColumnSpan="2"/>
     </Grid>
 </Page>
