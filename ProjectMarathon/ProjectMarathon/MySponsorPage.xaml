@@ -104,6 +104,7 @@
                    Foreground="#b4b4b4"
                    FontSize="30"
                    Margin="142,90,0,0"/>
+        <Button Name="CancelButton" Content="Cancel" HorizontalAlignment="Center" Grid.Row="4" Grid.ColumnSpan="2" Style="{StaticResource SmallButton}" Click="CancelButton_Click"/>
         <Frame x:Name="MyFrame" NavigationUIVisibility="Hidden" Grid.RowSpan="5" Grid.ColumnSpan="2"/>
     </Grid>
 </Page>
